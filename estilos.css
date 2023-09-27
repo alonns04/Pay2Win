@@ -1,0 +1,186 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-image: url(img-futbol-arg/cesped.jpg);
+    background-position: center center;
+    background-size: cover;
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+/*//////menu///////*/
+ul{
+    list-style: none;
+    display: flex;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 1.5rem;
+
+    transition: all .8s ease;
+    
+}
+.header{
+    overflow: hidden;
+    background-color: rgb(129, 129, 247);
+}
+.nav{
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    align-items: center;
+    width: 1100px;
+    margin: auto;
+}
+.nav img{
+    width: 80px;
+    height: auto;
+
+}
+.nav ul li a:hover{
+    
+    color: #fff;
+    background: rgba(195,35,88);
+    
+}
+/*/////section//////*/
+section{
+    min-height: 100vh;
+    box-sizing: border-box;
+    padding: 50px;
+    
+}
+#menu{
+    
+    display: grid;
+    grid-template-columns: repeat(2, 400px);
+    grid-template-rows: 1fr;
+    justify-content: center;
+    align-content: center;
+    
+    
+}
+#menu .tile{
+    height: 100%;
+    overflow: hidden;
+    cursor: pointer;
+}
+#menu .tile a{
+    text-decoration: none;
+
+}
+.tile{
+    border-radius: 10px;
+    font-weight: bold;
+}
+#menu .tile .front{
+    color: white;
+    background-color: black;
+    height: 100%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: all 0.8s ease;
+}
+#menu .tile .back{
+    background-color: #222;
+    color: white;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    height: 100%;
+    font-weight: bold;
+    font-size: 28px;
+}
+#menu .tile:hover .front{
+    margin-top: -200%;
+}
+#menu .futarg-tile .front{
+    background-image: url(img-futbol-arg/afa.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+#menu .futesp-tile .front{
+    background-image: url(img-futbol-eu/liga.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.lorem{
+    padding: 20px;
+    font-size: small;
+    color:aqua ;
+}
+.elegui{
+    text-align: center;
+  
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.futbol-arg{
+    display: grid;
+    grid-template-columns: 400px 200px 400px;
+    grid-template-rows: repeat(3, 400px);
+    gap: 10px;
+    padding: 50px;
+    box-sizing: border-box;
+    justify-content: center;
+    align-content: center;
+    
+     
+}
+.item{
+    
+    color: #242424;
+    background-color: white;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 10px;
+    box-sizing: border-box;
+    height: 100%;
+    padding: 10px;
+    justify-content: center;
+    align-content: center;
+    
+}
+.item{
+    display: grid;
+    align-content: center;
+    justify-content: center;
+}
+
+.item1{
+    background-image: url(img-futbol-arg/boca.jpg);
+    background-size:cover ;
+    background-position: center ;
+}
+.item3{
+    background-image: url(img-futbol-arg/river_plate_logo_freelogovectors.net_-322x400.webp);
+    background-size:cover;
+    background-position: center;
+}
+.item4{
+    background-image: url(img-futbol-arg/san-lorenzo.jpg);
+    background-size:cover ;
+    background-position: center ;
+}
+.item6{
+    background-image: url(img-futbol-arg/newells.jpg);
+    background-size:cover ;
+    background-position: center ;
+}
+.item7{
+    background-image: url(img-futbol-arg/racing.png);
+    background-size:cover ;
+    background-position: center ;
+}
+.item9{
+    background-image: url(img-futbol-arg/Club\ Atlético\ Independiente.jpeg);
+    background-size:cover ;
+    background-position: center ;
+}

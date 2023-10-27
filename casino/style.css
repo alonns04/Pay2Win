@@ -1,0 +1,40 @@
+/* TRAGAMONEDAS */
+
+.slot-machine {
+  text-align: center;
+}
+
+.slot img {
+  background-image: url(./tm-img/velocidad.jpg);
+  background-size: auto;
+}
+
+.slot {
+  display: inline-block;
+  width: 15%;
+  background-color: goldenrod;
+  padding: 8px;
+}
+
+.slot img {
+  width: 100%;
+}
+
+/* RULETA */
+
+#app {
+  text-align: center;
+}
+
+.marker {
+  position: absolute;
+  z-index: 2;
+  left: 50%; /* Centrar horizontalmente el elemento */
+  transform: translate(-50%, -50%); /* Alinear el centro del elemento al centro del contenedor */
+}
+
+}
+
+.button {
+  width: 10%;
+}

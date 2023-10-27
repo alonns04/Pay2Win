@@ -10,35 +10,30 @@
 
 <body>
 
-  <br><br><br>
-
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-6 col-xs-12">
-
-        <div class="slot-machine">
-          <div id="contenedorslot">
-            <div class="slot">
-              <img src="./tm-img/6.png" alt="">
-            </div>
-            <div class="slot">
-              <img src="./tm-img/6.png" alt="">
-            </div>
-            <div class="slot">
-              <img src="./tm-img/6.png" alt="">
-            </div>
-          </div>
-          <button id="spin-btn">Girar</button>
-        </div>
-
-      </div>
-      <div class="col-sm-6 col-xs-12g">
-
-      </div>
+  <div class="slot-machine" id="contenedorslot">
+    <div class="slot">
+      <img src="./tm-img/6.png" alt="">
+    </div>
+    <div class="slot">
+      <img src="./tm-img/6.png" alt="">
+    </div>
+    <div class="slot">
+      <img src="./tm-img/6.png" alt="">
     </div>
   </div>
+
+  <div class="botonalineado">
+    <button id="spin-btn">
+      <p>
+        Girar
+      </p>
+    </button>
+  </div>
+
   <br><br><br>
+
   <h1 id="resut" class="result"></h1>
+
   <div id="app" class="app">
     <div>
       <img class="marker" src="marker.png" alt="">
@@ -47,7 +42,9 @@
       <img style="transition: transform 0s ease 0s; transform: rotate(-0.5deg);" class="wheel" src="whel.png" alt="">
     </div>
     <div>
-      <img class="button" src="button.png" alt="">
+      <button class="button">
+        <img src="button.png" alt="">
+      </button>
     </div>
 
   </div>

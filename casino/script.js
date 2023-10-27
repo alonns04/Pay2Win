@@ -78,9 +78,9 @@ giroBoton.addEventListener("click", giro);
             } else if (
                 (pos % 2) === 1
             ) {
-                console.log(`Sacaste el ${resultados[pos]} Rojo`)
+                alert(`Sacaste el ${resultados[pos]} Rojo`)
             } else {
-                console.log(`Sacaste el ${resultados[pos]} Negro`)
+                alert(`Sacaste el ${resultados[pos]} Negro`)
             }
         }, 3000);
     });

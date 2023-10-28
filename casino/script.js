@@ -70,16 +70,20 @@ giroBoton.addEventListener("click", giro);
         wheel.style.transition = 'transform 3s ease';
         wheel.style.transform = `rotate(${deg}deg)`;
         let pos = parseInt((-deg % 360) / (360 / 37));
+            startButton.disabled = true
         setTimeout(() => {
             if (
                 pos === 0
             ) {
+                startButton.disabled = false
                 alert("FELICIDADES! Sacaste el 0 Verde!")
             } else if (
                 (pos % 2) === 1
             ) {
+                startButton.disabled = false
                 alert(`Sacaste el ${resultados[pos]} Rojo`)
             } else {
+                startButton.disabled = false
                 alert(`Sacaste el ${resultados[pos]} Negro`)
             }
         }, 3000);

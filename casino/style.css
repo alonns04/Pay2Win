@@ -2,6 +2,7 @@
 
 .slot-machine {
   text-align: center;
+  padding-top: 250px;
 }
 
 .slot img {
@@ -11,7 +12,7 @@
 
 .slot {
   display: inline-block;
-  width: 15%;
+  width: 30%;
   background-color: goldenrod;
   padding: 8px;
 }
@@ -22,26 +23,28 @@
 
 .botonalineado{
   text-align: center;
-  margin-top: 10px;
+}
+
+#spin-btn{
+  width: 30%;
+  background: none;
+  border: 0;
+  margin-top: 20px;
+}
+
+#spin-btn img {
+  width: 100%;
 }
 
 /* RULETA */
 
-#app {
-  text-align: center;
+.wheel{
+  margin-top: -40px;
 }
 
 .marker {
-  position: absolute;
+  position: relative;
   z-index: 2;
-  left: 50%;
-  /* Centrar horizontalmente el elemento */
-  transform: translate(-50%, -50%);
-  /* Alinear el centro del elemento al centro del contenedor */
-}
-
-.button {
-  width: 20%;
 }
 
 .button img {
@@ -49,12 +52,10 @@
 }
 
 .button {
+  width: 30%;
   background: none;
   border: 0;
-  color: inherit;
-  /* cursor: default; */
-  font: inherit;
-  line-height: normal;
-  overflow: visible;
-  padding: 0;
+}
+.divruleta{
+  text-align: center;
 }

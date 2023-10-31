@@ -1,3 +1,14 @@
+
+/* ESTÉTICA */
+*{font-family: 'Kay Pho Du', serif;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+*::selection{
+  background-color: lightgreen;
+  color: black;
+  }
+
 /* TRAGAMONEDAS */
 
 .slot-machine {

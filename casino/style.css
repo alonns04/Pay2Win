@@ -2,7 +2,7 @@
 
 .slot-machine {
   text-align: center;
-  padding-top: 250px;
+  padding-top: 50%;
 }
 
 .slot img {
@@ -38,13 +38,18 @@
 
 /* RULETA */
 
+#ruleta{
+  width: 100%;
+}
+
 .wheel{
-  margin-top: -40px;
+  margin-top: -8%;
 }
 
 .marker {
   position: relative;
   z-index: 2;
+  width: 15%;
 }
 
 .button img {
@@ -58,4 +63,7 @@
 }
 .divruleta{
   text-align: center;
+}
+.col-6{
+  padding: 0 !important;
 }

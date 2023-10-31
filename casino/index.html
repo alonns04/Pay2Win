@@ -11,36 +11,37 @@
 </head>
 
 <body>
+  <div class="container">
 
-  <div class="row">
-    <div class="col-6">
-      <div class="slot-machine" id="contenedorslot">
-        <div class="slot">
-          <img src="./tm-img/6.png" alt="">
+    <div class="row">
+      <div class="col-6">
+        <div class="slot-machine" id="contenedorslot">
+          <div class="slot">
+            <img src="./tm-img/6.png" alt="">
+          </div>
+          <div class="slot">
+            <img src="./tm-img/6.png" alt="">
+          </div>
+          <div class="slot">
+            <img src="./tm-img/6.png" alt="">
+          </div>
         </div>
-        <div class="slot">
-          <img src="./tm-img/6.png" alt="">
-        </div>
-        <div class="slot">
-          <img src="./tm-img/6.png" alt="">
+
+        <div class="botonalineado">
+          <button id="spin-btn">
+            <img src="button.png" alt="">
+          </button>
         </div>
       </div>
-
-      <div class="botonalineado">
-        <button id="spin-btn">
-          <img src="button.png" alt="">
-        </button>
-      </div>
-    </div>
-    <div class="col-6">
+      <div class="col-6">
 
         <div class="divruleta">
           <img class="marker" src="marker.png" alt="">
         </div>
 
         <div class="divruleta">
-          <img style="transition: transform 0s ease 0s; transform: rotate(-0.5deg);" class="wheel" src="whel.png"
-            alt="">
+          <img id="ruleta" style="transition: transform 0s ease 0s; transform: rotate(-0.5deg);" class="wheel"
+            src="whel.png" alt="">
         </div>
 
         <div class="divruleta">
@@ -49,9 +50,10 @@
           </button>
         </div>
 
+      </div>
     </div>
-  </div>
 
+  </div>
 
 
   <br><br><br>

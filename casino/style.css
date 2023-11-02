@@ -110,10 +110,6 @@ main {
   background-color: rgb(220, 220, 220);
 }
 
-nav{
-  position: sticky;
-}
-
 #logonav {
   display: inline;
   width: 60px;

@@ -23,6 +23,7 @@
 
 .slot-machine {
   text-align: center;
+  margin-top: 230px;
 }
 
 .slot img {
@@ -59,11 +60,11 @@
 /* RULETA */
 
 #ruleta {
-  width: 100%;
+  width: 85%;
 }
 
 .wheel {
-  margin-top: -8%;
+  margin-top: -7%;
 }
 
 .marker {
@@ -104,7 +105,7 @@ body {
 }
 
 main {
-  padding-top: 90px;
+  padding-top: 20px;
   padding-bottom: 90px;
   background-color: rgb(220, 220, 220);
 }

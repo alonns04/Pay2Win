@@ -1,0 +1,68 @@
+body {
+    background-color: #ffffff;
+    font-family: initial;
+}
+
+
+.imagenesnav a {
+    margin: 9px;
+}
+
+main {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background-color: rgb(224, 224, 224);
+}
+
+#logonav{
+    display: inline;
+    width: 60px;
+}
+
+/*FOOTER*/
+.fimg {
+    margin: 35px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#fdivimg {
+    text-align: center;
+}
+
+
+.fcopy {
+    font-size: 15px;
+    text-align: center;
+    margin-top: 90px;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th {
+    width: 25%;
+    font-weight: normal;
+}
+
+table a {
+    text-decoration: none;
+    color: black;
+}
+
+/*  DIV SUPERIOR DESLIZANTE */
+
+
+#divsup {
+    background-color: rgb(161, 161, 161);
+    color: white;
+    text-align: center;
+}
+
+#divsup p {
+    margin: 0 !important;
+}

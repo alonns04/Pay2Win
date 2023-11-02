@@ -1,19 +1,28 @@
-
 /* ESTÉTICA */
-*{font-family: 'Kay Pho Du', serif;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: bold;
+
+*::selection {
+  background-color: rgb(114, 187, 255);
+  color: black !important;
 }
-*::selection{
-  background-color: lightgreen;
-  color: black;
-  }
+
+::-webkit-scrollbar {
+  width: 13px;
+  /* Ancho de la barra de desplazamiento */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #323232;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(0, 0, 0);
+  /* Color de fondo de la barra de desplazamiento */
+}
 
 /* TRAGAMONEDAS */
 
 .slot-machine {
   text-align: center;
-  padding-top: 50%;
 }
 
 .slot img {
@@ -24,19 +33,19 @@
 .slot {
   display: inline-block;
   width: 30%;
-  background-color: goldenrod;
-  padding: 8px;
+  background-color: rgb(89, 89, 89);
+  padding: 4px;
 }
 
 .slot img {
   width: 100%;
 }
 
-.botonalineado{
+.botonalineado {
   text-align: center;
 }
 
-#spin-btn{
+#spin-btn {
   width: 30%;
   background: none;
   border: 0;
@@ -49,11 +58,11 @@
 
 /* RULETA */
 
-#ruleta{
+#ruleta {
   width: 100%;
 }
 
-.wheel{
+.wheel {
   margin-top: -8%;
 }
 
@@ -72,9 +81,105 @@
   background: none;
   border: 0;
 }
-.divruleta{
+
+.divruleta {
   text-align: center;
 }
-.col-6{
+
+.col-6 {
   padding: 0 !important;
+}
+
+
+/* FOOTER Y HEADER */
+
+/* HEADER */
+
+body {
+  font-family: initial;
+}
+
+.imagenesnav a {
+  margin: 9px;
+}
+
+main {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: rgb(220, 220, 220);
+}
+
+nav{
+  position: sticky;
+}
+
+#logonav {
+  display: inline;
+  width: 60px;
+}
+
+.nav-link {
+  border: 2px solid white !important;
+}
+
+.nav-link:hover{
+  border-top: 2px solid rgb(114, 187, 255) !important;
+  border-bottom: 2px solid rgb(114, 187, 255) !important;
+}
+
+.imagenesnav div{
+  border: 2px solid white !important;
+}
+
+.imagenesnav div:hover{
+  border-bottom: 2px solid rgb(69, 107, 142) !important;
+}
+
+/*FOOTER*/
+.fimg {
+  margin: 35px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+#fdivimg {
+  text-align: center;
+}
+
+
+.fcopy {
+  font-size: 15px;
+  text-align: center;
+  margin-top: 90px;
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+th {
+  width: 25%;
+  font-weight: normal;
+}
+
+table a {
+  text-decoration: none;
+  color: black;
+}
+
+/*  DIV SUPERIOR DESLIZANTE */
+
+
+#divsup {
+  background-color: #dddddd;
+  color: rgb(62, 62, 62);
+  font-weight: bold;
+  text-align: center;
+}
+
+#divsup p {
+  margin: 0 !important;
 }

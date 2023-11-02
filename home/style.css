@@ -1,68 +1,303 @@
-body {
-    background-color: #ffffff;
+/* ESTÉTICA */
+
+*::selection {
+    background-color: rgb(114, 187, 255);
+    color: black !important;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 13px;
+    /* Ancho de la barra de desplazamiento */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #323232;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: rgb(0, 0, 0);
+    /* Color de fondo de la barra de desplazamiento */
+  }
+  
+  /* FOOTER Y HEADER */
+  
+  /* HEADER */
+  
+  body {
     font-family: initial;
-}
-
-
-.imagenesnav a {
+  }
+  
+  .imagenesnav a {
     margin: 9px;
-}
-
-main {
+  }
+  
+  main {
     padding-top: 90px;
     padding-bottom: 90px;
-    background-color: rgb(224, 224, 224);
-}
-
-#logonav{
+    background-color: rgb(220, 220, 220);
+  }
+  
+  nav{
+    position: sticky;
+  }
+  
+  #logonav {
     display: inline;
     width: 60px;
-}
-
-/*FOOTER*/
-.fimg {
+  }
+  
+  .nav-link {
+    border: 2px solid white !important;
+  }
+  
+  .nav-link:hover{
+    border-top: 2px solid rgb(114, 187, 255) !important;
+    border-bottom: 2px solid rgb(114, 187, 255) !important;
+  }
+  
+  .imagenesnav div{
+    border: 2px solid white !important;
+  }
+  
+  .imagenesnav div:hover{
+    border-bottom: 2px solid rgb(69, 107, 142) !important;
+  }
+  
+  /*FOOTER*/
+  .fimg {
     margin: 35px;
     margin-top: 25px;
     margin-bottom: 25px;
-}
-
-#fdivimg {
+  }
+  
+  #fdivimg {
     text-align: center;
-}
-
-
-.fcopy {
+  }
+  
+  
+  .fcopy {
     font-size: 15px;
     text-align: center;
     margin-top: 90px;
-}
-
-
-table {
+  }
+  
+  
+  table {
     width: 100%;
     border-collapse: collapse;
     text-align: center;
-}
-
-th {
+  }
+  
+  th {
     width: 25%;
     font-weight: normal;
-}
-
-table a {
+  }
+  
+  table a {
     text-decoration: none;
     color: black;
-}
-
-/*  DIV SUPERIOR DESLIZANTE */
-
-
-#divsup {
-    background-color: rgb(161, 161, 161);
-    color: white;
+  }
+  
+  /*  DIV SUPERIOR DESLIZANTE */
+  
+  
+  #divsup {
+    background-color: #dddddd;
+    color: rgb(62, 62, 62);
+    font-weight: bold;
     text-align: center;
+  }
+  
+  #divsup p {
+    margin: 0 !important;
+  }
+
+
+
+  /*---------------------------------*/
+  body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-image: url(img-futbol-arg/cesped.jpg);
+    background-position: center center;
+    background-size: cover;
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+/*//////menu///////*/
+ul{
+    list-style: none;
+    display: flex;
 }
 
-#divsup p {
-    margin: 0 !important;
+.nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 1.5rem;
+
+    transition: all .8s ease;
+    
+}
+.header{
+    overflow: hidden;
+    background-color: rgb(129, 129, 247);
+}
+.nav{
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    align-items: center;
+    width: 1100px;
+    margin: auto;
+}
+.nav img{
+    width: 80px;
+    height: auto;
+
+}
+.nav ul li a:hover{
+    
+    color: #fff;
+    background: rgba(195,35,88);
+    
+}
+/*/////section//////*/
+section{
+    min-height: 100vh;
+    box-sizing: border-box;
+    padding: 50px;
+    
+}
+#menu{
+    
+    display: grid;
+    grid-template-columns: repeat(2, 400px);
+    grid-template-rows: 1fr;
+    justify-content: center;
+    align-content: center;
+    
+    
+}
+#menu .tile{
+    height: 100%;
+    overflow: hidden;
+    cursor: pointer;
+}
+#menu .tile a{
+    text-decoration: none;
+
+}
+.tile{
+    border-radius: 10px;
+    font-weight: bold;
+}
+#menu .tile .front{
+    color: white;
+    background-color: black;
+    height: 100%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: all 0.8s ease;
+}
+#menu .tile .back{
+    background-color: #222;
+    color: white;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    height: 100%;
+    font-weight: bold;
+    font-size: 28px;
+}
+#menu .tile:hover .front{
+    margin-top: -200%;
+}
+#menu .futarg-tile .front{
+    background-image: url(/img-futbol-arg/afa.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+#menu .futesp-tile .front{
+    background-image: url(/img-futbol-arg/liga.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.lorem{
+    padding: 20px;
+    font-size: small;
+    color:aqua ;
+}
+.elegui{
+    text-align: center;
+  
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.futbol-arg{
+    display: grid;
+    grid-template-columns: 400px 200px 400px;
+    grid-template-rows: repeat(3, 400px);
+    gap: 10px;
+    padding: 50px;
+    box-sizing: border-box;
+    justify-content: center;
+    align-content: center;
+    
+     
+}
+.item{
+    
+    color: #242424;
+    background-color: white;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 10px;
+    box-sizing: border-box;
+    height: 100%;
+    padding: 10px;
+    justify-content: center;
+    align-content: center;
+    
+}
+.item{
+    display: grid;
+    align-content: center;
+    justify-content: center;
+}
+
+.item1{
+    background-image: url(/img-futbol-arg/boca.jpg);
+    background-size:cover ;
+    background-position: center ;
+}
+.item3{
+    background-image: url(/img-futbol-arg/river_plate_logo_freelogovectors.net_-322x400.webp);
+    background-size:cover;
+    background-position: center;
+}
+.item4{
+    background-image: url(/img-futbol-arg/san-lorenzo.jpg);
+    background-size:cover ;
+    background-position: center ;
+}
+.item6{
+    background-image: url(/img-futbol-arg/newells.jpg);
+    background-size:cover ;
+    background-position: center ;
+}
+.item7{
+    background-image: url(/img-futbol-arg/racing.png);
+    background-size:cover ;
+    background-position: center ;
+}
+.item9{
+    background-image: url(/img-futbol-arg/Club\ Atlético\ Independiente.jpeg);
+    background-size:cover ;
+    background-position: center ;
 }

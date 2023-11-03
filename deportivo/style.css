@@ -1,292 +1,186 @@
 /* ESTÉTICA */
 
 *::selection {
-    background-color: rgb(114, 187, 255);
-    color: black !important;
-  }
-  
-  ::-webkit-scrollbar {
-    width: 13px;
-    /* Ancho de la barra de desplazamiento */
-  }
-  
-  ::-webkit-scrollbar-thumb {
-    background: #323232;
-  }
-  
-  ::-webkit-scrollbar-track {
-    background: rgb(0, 0, 0);
-    /* Color de fondo de la barra de desplazamiento */
-  }
-  
-  /* FOOTER Y HEADER */
-  
-  /* HEADER */
-  
-  body {
-    font-family: initial;
-  }
-  
-  .imagenesnav a {
-    margin: 9px;
-  }
-  
-  main {
-    padding-top: 90px;
-    padding-bottom: 90px;
-    background-color: rgb(220, 220, 220);
-  }
-  
-  
-  #logonav {
-    display: inline;
-    width: 60px;
-  }
-  
-  .nav-link {
-    border: 2px solid white !important;
-  }
-  
-  .nav-link:hover{
-    border-top: 2px solid rgb(114, 187, 255) !important;
-    border-bottom: 2px solid rgb(114, 187, 255) !important;
-  }
-  
-  .imagenesnav div{
-    border: 2px solid white !important;
-  }
-  
-  .imagenesnav div:hover{
-    border-bottom: 2px solid rgb(69, 107, 142) !important;
-  }
-  
-  /*FOOTER*/
-  .fimg {
-    margin: 35px;
-    margin-top: 25px;
-    margin-bottom: 25px;
-  }
-  
-  #fdivimg {
-    text-align: center;
-  }
-  
-  
-  .fcopy {
-    font-size: 15px;
-    text-align: center;
-    margin-top: 90px;
-  }
-  
-  
-  table {
-    width: 100%;
-    border-collapse: collapse;
-    text-align: center;
-  }
-  
-  th {
-    width: 25%;
-    font-weight: normal;
-  }
-  
-  table a {
-    text-decoration: none;
-    color: black;
-  }
-  
-  /*  DIV SUPERIOR DESLIZANTE */
-  
-  
-  #divsup {
-    background-color: #dddddd;
-    color: rgb(62, 62, 62);
-    font-weight: bold;
-    text-align: center;
-  }
-  
-  #divsup p {
-    margin: 0 !important;
-  }
-
-
-
-  /*---------------------------------*/
-  
-html{
-    scroll-behavior: smooth;
-}
-/*//////menu///////*/
-ul{
-    list-style: none;
-    display: flex;
+  background-color: rgb(114, 187, 255);
+  color: black !important;
 }
 
-.nav ul li a{
-    text-decoration: none;
-    color: #fff;
-    padding: 1.5rem;
-
-    transition: all .8s ease;
-    
-}
-.header{
-    overflow: hidden;
-    background-color: rgb(129, 129, 247);
-}
-.nav{
-    display: grid;
-    grid-template-columns: 6fr 6fr;
-    align-items: center;
-    width: 1100px;
-    margin: auto;
-}
-.nav img{
-    width: 80px;
-    height: auto;
-
-}
-.nav ul li a:hover{
-    
-    color: #fff;
-    background: rgba(195,35,88);
-    
-}
-/*/////section//////*/
-section{
-    min-height: 100vh;
-    box-sizing: border-box;
-    padding: 50px;
-    
-}
-#menu{
-    
-    display: grid;
-    grid-template-columns: repeat(2, 400px);
-    grid-template-rows: 1fr;
-    justify-content: center;
-    align-content: center;
-    
-    
-}
-#menu .tile{
-    height: 100%;
-    overflow: hidden;
-    cursor: pointer;
-}
-#menu .tile a{
-    text-decoration: none;
-
-}
-.tile{
-    border-radius: 10px;
-    font-weight: bold;
-}
-#menu .tile .front{
-    color: white;
-    background-color: black;
-    height: 100%;
-    display: grid;
-    justify-items: center;
-    align-items: center;
-    padding: 20px;
-    box-sizing: border-box;
-    transition: all 0.8s ease;
-}
-#menu .tile .back{
-    background-color: #222;
-    color: white;
-    display: grid;
-    justify-items: center;
-    align-items: center;
-    height: 100%;
-    font-weight: bold;
-    font-size: 28px;
-}
-#menu .tile:hover .front{
-    margin-top: -200%;
-}
-#menu .futarg-tile .front{
-    background-image: url(/img-futbol-arg/afa.jpg);
-    background-size: cover;
-    background-position: center center;
+::-webkit-scrollbar {
+  width: 13px;
+  /* Ancho de la barra de desplazamiento */
 }
 
-#menu .futesp-tile .front{
-    background-image: url(/img-futbol-arg/liga.jpg);
-    background-size: cover;
-    background-position: center center;
+::-webkit-scrollbar-thumb {
+  background: #323232;
 }
 
-.lorem{
-    padding: 20px;
-    font-size: small;
-    color:aqua ;
-}
-.elegui{
-    text-align: center;
-  
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.futbol-arg{
-    display: grid;
-    grid-template-columns: 400px 200px 400px;
-    grid-template-rows: repeat(3, 400px);
-    gap: 10px;
-    padding: 50px;
-    box-sizing: border-box;
-    justify-content: center;
-    align-content: center;
-    
-     
-}
-.item{
-    
-    color: #242424;
-    background-color: white;
-    font-weight: 600;
-    text-align: center;
-    border-radius: 10px;
-    box-sizing: border-box;
-    height: 100%;
-    padding: 10px;
-    justify-content: center;
-    align-content: center;
-    
-}
-.item{
-    display: grid;
-    align-content: center;
-    justify-content: center;
+::-webkit-scrollbar-track {
+  background: rgb(0, 0, 0);
+  /* Color de fondo de la barra de desplazamiento */
 }
 
-.item1{
-    background-image: url(/img-futbol-arg/boca.jpg);
-    background-size:cover ;
-    background-position: center ;
+/* FOOTER Y HEADER */
+
+/* HEADER */
+
+body {
+  font-family: initial;
 }
-.item3{
-    background-image: url(/img-futbol-arg/river_plate_logo_freelogovectors.net_-322x400.webp);
-    background-size:cover;
-    background-position: center;
+
+.imagenesnav a {
+  margin: 9px;
 }
-.item4{
-    background-image: url(/img-futbol-arg/san-lorenzo.jpg);
-    background-size:cover ;
-    background-position: center ;
+
+main {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: rgb(114, 187, 255);
 }
-.item6{
-    background-image: url(/img-futbol-arg/newells.jpg);
-    background-size:cover ;
-    background-position: center ;
+
+
+#logonav {
+  display: inline;
+  width: 60px;
 }
-.item7{
-    background-image: url(/img-futbol-arg/racing.png);
-    background-size:cover ;
-    background-position: center ;
+
+.nav-link {
+  border: 2px solid white !important;
 }
-.item9{
-    background-image: url(/img-futbol-arg/Club\ Atlético\ Independiente.jpeg);
-    background-size:cover ;
-    background-position: center ;
+
+.nav-link:hover {
+  border-top: 2px solid rgb(114, 187, 255) !important;
+  border-bottom: 2px solid rgb(114, 187, 255) !important;
+}
+
+.imagenesnav div {
+  border: 2px solid white !important;
+}
+
+.imagenesnav div:hover {
+  border-bottom: 2px solid rgb(69, 107, 142) !important;
+}
+
+/*FOOTER*/
+.fimg {
+  margin: 35px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+#fdivimg {
+  text-align: center;
+}
+
+
+.fcopy {
+  font-size: 15px;
+  text-align: center;
+  margin-top: 90px;
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+th {
+  width: 25%;
+  font-weight: normal;
+}
+
+table a {
+  text-decoration: none;
+  color: black;
+}
+
+/*  DIV SUPERIOR DESLIZANTE */
+
+
+#divsup {
+  background-color: rgb(40, 62, 82);
+  color: rgb(114, 187, 255);
+  font-weight: bold;
+  text-align: center;
+  top: 0px;
+  position: sticky;
+  z-index: 100 !important;
+}
+
+#divsup p {
+  margin: 0 !important;
+}
+
+/* ARTICLE */
+
+.logoliga {
+  text-align: center;
+  border-color: rgb(40, 62, 82);
+}
+
+.logoliga img {
+  width: 20%;
+  border: solid #ffffff 1px;
+  border-bottom: 0px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.vs {
+  border: solid #ffffff 2px;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 0;
+}
+
+.equipos {
+  text-align: center;
+}
+
+.equipos img {
+  margin: 10px;
+  width: 100px;
+}
+
+.equipos * {
+  display: inline;
+}
+
+.equipos p {
+  font-weight: bold;
+}
+
+.vs .col-4 {
+  border: #323232 solid 2px;
+  border-radius: 50px;
+  border-top: 0;
+  border-bottom: 0;
+}
+
+.vs .row {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.vs button {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 10px;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.vs button:hover {
+  background-color: #3682ae;
+}
+
+.vs button:active {
+  transform: translateY(2px);
+}
+.vs div{
+  padding: 0 !important;
 }

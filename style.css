@@ -1,8 +1,8 @@
 /* ESTÉTICA */
 
 *::selection {
-    background-color: rgb(114, 187, 255);
-    color: black !important;
+    background-color: rgb(53, 53, 53);
+    color: rgb(255, 255, 255) !important;
   }
   
   ::-webkit-scrollbar {
@@ -36,19 +36,19 @@
     padding-bottom: 90px;
     background-color: rgb(220, 220, 220);
   }
-  
-  #logonav {
-    display: inline;
-    width: 60px;
-  }
+ 
+#logonav {
+  display: inline;
+  width: 50px;
+}
   
   .nav-link {
     border: 2px solid white !important;
   }
   
   .nav-link:hover{
-    border-top: 2px solid rgb(114, 187, 255) !important;
-    border-bottom: 2px solid rgb(114, 187, 255) !important;
+    border-top: 2px solid rgb(207, 207, 207) !important;
+    border-bottom: 2px solid rgb(207, 207, 207) !important;
   }
   
   .imagenesnav div{
@@ -56,7 +56,7 @@
   }
   
   .imagenesnav div:hover{
-    border-bottom: 2px solid rgb(69, 107, 142) !important;
+    border-bottom: 2px solid rgb(89, 89, 89) !important;
   }
   
   /*FOOTER*/
@@ -69,7 +69,7 @@
 }
 
 #fdivimg a:hover{
-  border-bottom: 3px solid rgb(169, 30, 30) !important;
+  border-bottom: 3px solid rgb(89, 89, 89);
 }
 
 #fdivimg {
@@ -104,8 +104,8 @@ th p{
 }
 
 th p:hover{
-  border-top: 2px solid rgb(255, 114, 114) !important;
-  border-bottom: 2px solid rgb(255, 114, 114) !important;
+  border-top: 2px solid #c1c1c1 !important;
+  border-bottom: 2px solid #c1c1c1 !important;
 }
 
 td p{
@@ -113,7 +113,7 @@ td p{
 }
 
 td a:hover{
-  border-bottom: 2px solid rgb(255, 114, 114) !important;
+  border-bottom: 2px solid rgb(177, 177, 177) !important;
   border-radius: 5px;
   font-weight:bolder;
 }

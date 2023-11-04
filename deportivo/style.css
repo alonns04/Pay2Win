@@ -40,7 +40,7 @@ main {
 
 #logonav {
   display: inline;
-  width: 60px;
+  width: 50px;
 }
 
 .nav-link {
@@ -61,21 +61,30 @@ main {
 }
 
 /*FOOTER*/
-.fimg {
-  margin: 35px;
-  margin-top: 25px;
-  margin-bottom: 25px;
+
+#fdivimg img{
+  margin: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+}
+
+#fdivimg a:hover{
+  border-bottom: 3px solid rgb(40, 62, 82) !important;
 }
 
 #fdivimg {
   text-align: center;
+  background-color: white;
 }
 
 
 .fcopy {
   font-size: 15px;
   text-align: center;
-  margin-top: 90px;
+  margin-top: 20px;
+  padding: 10px !important;
+  margin-bottom: 0 !important;
 }
 
 
@@ -87,14 +96,37 @@ table {
 
 th {
   width: 25%;
-  font-weight: normal;
+}
+
+th p{
+  margin: 4px;
+  border-bottom: solid 2px #343434 !important;
+  border-top: solid 2px #959595 !important;
+}
+
+th p:hover{
+  border-top: 2px solid #3682ae !important;
+  border-bottom: 2px solid #3682ae !important;
+}
+
+td p{
+  border: 2px solid rgb(255, 255, 255) !important;
+}
+
+td a:hover{
+  border-bottom: 2px solid #3682ae !important;
+  border-radius: 5px;
+  font-weight:bolder;
+}
+
+.pritd p{
+  margin-top: 9px !important;
 }
 
 table a {
   text-decoration: none;
-  color: black;
+  color: rgb(0, 0, 0);
 }
-
 /*  DIV SUPERIOR DESLIZANTE */
 
 

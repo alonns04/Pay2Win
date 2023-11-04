@@ -60,40 +60,72 @@
   }
   
   /*FOOTER*/
-  .fimg {
-    margin: 35px;
-    margin-top: 25px;
-    margin-bottom: 25px;
-  }
-  
-  #fdivimg {
-    text-align: center;
-  }
-  
-  
-  .fcopy {
-    font-size: 15px;
-    text-align: center;
-    margin-top: 90px;
-  }
-  
-  
-  table {
-    width: 100%;
-    border-collapse: collapse;
-    text-align: center;
-  }
-  
-  th {
-    width: 25%;
-    font-weight: normal;
-  }
-  
-  table a {
-    text-decoration: none;
-    color: black;
-  }
-  
+
+#fdivimg img{
+  margin: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+}
+
+#fdivimg a:hover{
+  border-bottom: 3px solid rgb(169, 30, 30) !important;
+}
+
+#fdivimg {
+  text-align: center;
+  background-color: white;
+}
+
+
+.fcopy {
+  font-size: 15px;
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px !important;
+  margin-bottom: 0 !important;
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+th {
+  width: 25%;
+}
+
+th p{
+  margin: 4px;
+  border-bottom: solid 2px #343434 !important;
+  border-top: solid 2px #959595 !important;
+}
+
+th p:hover{
+  border-top: 2px solid rgb(255, 114, 114) !important;
+  border-bottom: 2px solid rgb(255, 114, 114) !important;
+}
+
+td p{
+  border: 2px solid rgb(255, 255, 255) !important;
+}
+
+td a:hover{
+  border-bottom: 2px solid rgb(255, 114, 114) !important;
+  border-radius: 5px;
+  font-weight:bolder;
+}
+
+.pritd p{
+  margin-top: 9px !important;
+}
+
+table a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
   /*  DIV SUPERIOR DESLIZANTE */
   
   

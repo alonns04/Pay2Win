@@ -1,7 +1,7 @@
 /* ESTÉTICA */
 
 *::selection {
-  background-color: rgb(114, 187, 255);
+  background-color: rgb(255, 114, 114);
   color: black !important;
 }
 
@@ -11,19 +11,29 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #323232;
+  background: rgb(96, 19, 19);
 }
 
 ::-webkit-scrollbar-track {
-  background: rgb(0, 0, 0);
+  background: rgb(43, 7, 7);
   /* Color de fondo de la barra de desplazamiento */
 }
 
 /* TRAGAMONEDAS */
 
+.titulo{
+  text-align: center;
+  margin-top: 50px;
+  border-bottom: solid 3px rgb(108, 17, 17);
+  border-top: solid 3px rgb(178, 25, 25);
+  border-radius: 100px;
+  padding: 5px;
+  color: rgb(62, 10, 10);
+}
+
 .slot-machine {
   text-align: center;
-  margin-top: 230px;
+  margin-top: 30px;
 }
 
 .slot img {
@@ -33,7 +43,7 @@
 
 .slot {
   display: inline-block;
-  width: 30%;
+  width: 17%;
   background-color: rgb(89, 89, 89);
   padding: 4px;
 }
@@ -47,7 +57,7 @@
 }
 
 #spin-btn {
-  width: 30%;
+  width: 15%;
   background: none;
   border: 0;
   margin-top: 20px;
@@ -59,22 +69,22 @@
 
 /* RULETA */
 
-#ruleta {
-  width: 85%;
+#ruleta1 {
+  width: 50%;
 }
 
 .wheel {
-  margin-top: -7%;
+  margin-top: -5%;
 }
 
 .marker {
   position: relative;
   z-index: 2;
-  width: 15%;
+  width: 8%;
 }
 
 .button img {
-  width: 100%;
+  width: 60%;
 }
 
 .button {
@@ -85,10 +95,6 @@
 
 .divruleta {
   text-align: center;
-}
-
-.col-6 {
-  padding: 0 !important;
 }
 
 
@@ -107,7 +113,7 @@ body {
 main {
   padding-top: 20px;
   padding-bottom: 90px;
-  background-color: rgb(220, 220, 220);
+  background-color: rgb(255, 175, 175);
 }
 
 #logonav {
@@ -120,8 +126,8 @@ main {
 }
 
 .nav-link:hover{
-  border-top: 2px solid rgb(114, 187, 255) !important;
-  border-bottom: 2px solid rgb(114, 187, 255) !important;
+  border-top: 2px solid rgb(255, 114, 114) !important;
+  border-bottom: 2px solid rgb(255, 114, 114) !important;
 }
 
 .imagenesnav div{
@@ -129,25 +135,34 @@ main {
 }
 
 .imagenesnav div:hover{
-  border-bottom: 2px solid rgb(69, 107, 142) !important;
+  border-bottom: 2px solid rgb(142, 69, 69) !important;
 }
 
 /*FOOTER*/
-.fimg {
-  margin: 35px;
-  margin-top: 25px;
-  margin-bottom: 25px;
+
+#fdivimg img{
+  margin: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+}
+
+#fdivimg a:hover{
+  border-bottom: 3px solid rgb(169, 30, 30) !important;
 }
 
 #fdivimg {
   text-align: center;
+  background-color: white;
 }
 
 
 .fcopy {
   font-size: 15px;
   text-align: center;
-  margin-top: 90px;
+  margin-top: 20px;
+  padding: 10px !important;
+  margin-bottom: 0 !important;
 }
 
 
@@ -159,22 +174,49 @@ table {
 
 th {
   width: 25%;
-  font-weight: normal;
+}
+
+th p{
+  margin: 4px;
+  border-bottom: solid 2px #343434 !important;
+  border-top: solid 2px #959595 !important;
+}
+
+th p:hover{
+  border-top: 2px solid rgb(255, 114, 114) !important;
+  border-bottom: 2px solid rgb(255, 114, 114) !important;
+}
+
+td p{
+  border: 2px solid rgb(255, 255, 255) !important;
+}
+
+td a:hover{
+  border-bottom: 2px solid rgb(255, 114, 114) !important;
+  border-radius: 5px;
+  font-weight:bolder;
+}
+
+.pritd p{
+  margin-top: 9px !important;
 }
 
 table a {
   text-decoration: none;
-  color: black;
+  color: rgb(0, 0, 0);
 }
 
 /*  DIV SUPERIOR DESLIZANTE */
 
 
 #divsup {
-  background-color: #dddddd;
-  color: rgb(62, 62, 62);
+  background-color: rgb(119, 16, 16);
+  color: rgb(255, 161, 161);
   font-weight: bold;
   text-align: center;
+  top: 0px;
+  position: sticky;
+  z-index: 100 !important;
 }
 
 #divsup p {
